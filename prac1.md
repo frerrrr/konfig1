@@ -9,7 +9,8 @@
 ```bash
 cat /etc/passwd | grep -oE '^[^:]+'
 ```
-![img1](img/Pasted%20image%2020240908183528.png)
+<img width="278" alt="image" src="https://github.com/user-attachments/assets/8a377b2c-34bb-4fed-a5c9-fc37eb91ca61">
+
 ---
 ## Задача 2
 
