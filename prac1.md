@@ -30,7 +30,8 @@ cat /etc/passwd | grep -oE '^[^:]+'
 ```bash
 tac /etc/protocols | head -5 | awk '{print $2, $1}'
 ```
-![img2](img/Pasted%20image%2020240908183656.png)
+<img width="348" alt="image" src="https://github.com/user-attachments/assets/2696ef94-a3f9-489a-9cf8-55e68d6492b4">
+
 ---
 ## Задача 3
 
@@ -63,7 +64,8 @@ for ((i = -2; i < size; ++i)); do
 done
 echo "+"
 ```
-![img3](img/Pasted%20image%2020240908183758.png)
+<img width="277" alt="image" src="https://github.com/user-attachments/assets/bd024794-f876-461b-8a31-0ce048a3d01e">
+
 ---
 ## Задача 4
 
@@ -97,7 +99,8 @@ grep -Eo '[_A-Za-z][_A-Za-z0-9]{0,30}' hello.c | sort | xargs
 chmod +x "$1"
 sudo cp "$1" /usr/local/bin
 ```
-![img5](img/Pasted%20image%2020240908190919.png)
+<img width="264" alt="image" src="https://github.com/user-attachments/assets/de5c31e4-abbc-4296-bb21-49e82a7f16b5">
+
 ---
 ## Задача 6
 
@@ -124,7 +127,8 @@ do
         fi
 done
 ```
-![img6](img/Pasted%20image%2020240908201821.png)
+<img width="294" alt="image" src="https://github.com/user-attachments/assets/dcc1e32a-ccb7-4fcb-b9ba-1348038bedc4">
+
 ---
 ## Задача 7
 
@@ -136,7 +140,8 @@ done
 #!/bin/bash
 find "$1" -type f -printf "%p\n" | xargs md5sum | sort | uniq -w32 --all-repeated=separate
 ```
-![img7](img/image7.png)
+<img width="341" alt="image" src="https://github.com/user-attachments/assets/215e7cf0-857d-4fad-9f5c-c7412fcae37c">
+
 ---
 ## Задача 8
 
@@ -148,7 +153,8 @@ find "$1" -type f -printf "%p\n" | xargs md5sum | sort | uniq -w32 --all-repeate
 #!/bin/bash
 find . -name "*.$1" -exec tar -rvf archive.tar {} \;
 ```
-![img8](img/image8.png)
+<img width="424" alt="image" src="https://github.com/user-attachments/assets/a9f8131a-5512-4554-b85b-3e7daeb25bc1">
+
 ---
 ## Задача 9
 
@@ -160,7 +166,8 @@ find . -name "*.$1" -exec tar -rvf archive.tar {} \;
 #!/bin/bash
 sed 's/    /    /g' "$1" > "$2"
 ```
-![img9](img/image9.png)
+<img width="270" alt="image" src="https://github.com/user-attachments/assets/2b0d436b-3b18-43af-ac04-62be5e2d6c02">
+
 ---
 ## Задача 10
 
@@ -172,4 +179,5 @@ sed 's/    /    /g' "$1" > "$2"
 #!/bin/bash
 find "$1" -type f -empty -name "*.txt"
 ```
-![img10](img/image10.png)
+<img width="232" alt="image" src="https://github.com/user-attachments/assets/8d0540bf-3895-4c2a-b01c-9475b43b17b4">
+
